@@ -1,0 +1,33 @@
+SWITCH
+VARIABLE ICON DISPLAY:
+VP: MEMORY YANG DIGUNAKAN (contoh 5000)
+Icon File: 42.icl
+Minimum: 0
+Minimum Icon ID 0: Gambar awal yang digunakan
+Maximum: 1
+Maximum Icon ID 1: Gambar setelah ditekan 1x
+Filter Set 1
+
+INCREMENT ADJUSTMENT:
+Data Auto-Uploading Check
+No button effect Check
+VP: MEMORY YANG DIGUNAKAN HARUS SAMA DENGAN VARIABLE ICON DISPLAY (misal Var Icon Display menggunakan memory 5000 maka memory yang harus digunakan adalah 5000 juga pada Increment adjustment)
+Low Byte
+Over Limit Operation: Cycle
+Adjusting tep length: 1
+Upper Limit: 1
+
+SLIDE DISPLAY
+DRAG ADJUSTMENT
+Data auto-uploading check
+VP: MEMORY YANG DIGUNAKAN (contoh 1000)
+Data return mode: Int
+Dragging mode: Horizontal
+End Value: 255
+
+SILINDER DISPLAY
+VP: 1000 (harus sama dengan drag adjustment)
+Terminal Value: 255
+Icon File: 42.icl
+Slide Icon: icon yang akan digunakan untuk melakukan silinder display
+Filter set: 1	
